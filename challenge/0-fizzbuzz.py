@@ -1,16 +1,9 @@
-#!/usr/bin/python3
-"""
-FizzBuzz implementation in Python
-"""
+#!/usr/bin/env python3
 import sys
 
 def fizzbuzz(n):
-    """
-    Prints numbers from 1 to n with FizzBuzz rules
-    """
     if n < 1:
         return
-    
     result = []
     for i in range(1, n + 1):
         if i % 3 == 0 and i % 5 == 0:
